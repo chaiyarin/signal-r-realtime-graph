@@ -1,0 +1,90 @@
+.DS_STORE
+
+/client/dist/
+/client/bazel-out
+/client/integration/bazel/bazel-*
+/client/*.log
+/client/node_modules
+
+# Include when developing application packages.
+/client/pubspec.lock
+/client/.c9
+/client/.idea/
+/client/.devcontainer/*
+/client/!.devcontainer/README.md
+/client/!.devcontainer/recommended-devcontainer.json
+/client/!.devcontainer/recommended-Dockerfile
+/client/.settings/
+/client/.vscode/launch.json
+/client/.vscode/settings.json
+/client/.vscode/tasks.json
+/client/*.swo
+/client/*.swp
+/client/modules/.settings
+/client/modules/.vscode
+/client/.vimrc
+/client/.nvimrc
+
+# Don't check in secret files
+/client/*secret.js
+
+# Ignore npm/yarn debug log
+/client/npm-debug.log
+/client/yarn-error.log
+
+# build-analytics
+/client/.build-analytics
+
+# rollup-test output
+/client/modules/rollup-test/dist/
+
+# User specific bazel settings
+/client/.bazelrc.user
+
+# User specific ng-dev settings
+/client/.ng-dev.user*
+
+/client/.notes.md
+/client/baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+/client/.history
+
+# CLDR data
+/client/tools/gulp-tasks/cldr/cldr-data/
+
+# Husky
+/client/.husky/_
+
+/server/nupkg/
+
+# Visual Studio Code
+/server/.vscode
+
+# Rider
+/server/.idea
+
+# User-specific files
+/server/*.suo
+/server/*.user
+/server/*.userosscache
+/server/*.sln.docstates
+
+# Build results
+/server/[Dd]ebug/
+/server/[Dd]ebugPublic/
+/server/[Rr]elease/
+/server/[Rr]eleases/
+/server/x64/
+/server/x86/
+/server/build/
+/server/bld/
+/server/[Bb]in/
+/server/[Oo]bj/
+/server/[Oo]ut/
+/server/msbuild.log
+/server/msbuild.err
+/server/msbuild.wrn
+
+# Visual Studio 2015
+/server/.vs/
